@@ -7,18 +7,15 @@
 # 	puts n
 # end
 
-number = 1
+number = 0
 100.times do
-	if (number % 3 == 0)
-		puts "mined"
-	end
-	if (number % 5 == 0)
-		puts "minds"
-	end
-	if (number % 15 == 0)
-		puts "minedminds"
-	else
-		puts number
-	end
 	number = number + 1
+	if (number % 3 == 0 and number % 5 == 0)
+		puts "minedminds"
+	elsif (number % 3 == 0)
+		puts "mined"
+	elsif (number % 5 == 0)
+		puts "minds"
+	else puts number
+	end
 end
