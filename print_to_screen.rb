@@ -7,8 +7,12 @@
 # 	puts n
 # end
 
-x = 1
+number = 1
 100.times do
-	puts x
-	x = x + 1
+	if number == 3
+		puts "mined"
+	else
+		puts number
+	end
+	number = number + 1
 end
