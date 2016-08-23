@@ -21,9 +21,14 @@
 # 	end
 # end
 
+
+# && = and
+# || = or
 number = 1
 100.times do
-	if number % 3 == 0
+	if number % 3 == 0 && number % 5 == 0
+		puts "MinedMinds"
+	elsif number % 3 == 0
 		puts "Mined"
 	elsif number % 5 == 0
 		puts "Minds"
