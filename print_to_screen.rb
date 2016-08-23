@@ -11,6 +11,12 @@ number = 1
 100.times do
 	if (number % 3 == 0)
 		puts "mined"
+	end
+	if (number % 5 == 0)
+		puts "minds"
+	end
+	if (number % 15 == 0)
+		puts "minedminds"
 	else
 		puts number
 	end
