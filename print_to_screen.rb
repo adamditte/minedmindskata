@@ -24,7 +24,6 @@
 
 # && = and
 # || = or
-def mined_minds(number)
 number = 1
 100.times do
 	if number % 3 == 0 && number % 5 == 0
